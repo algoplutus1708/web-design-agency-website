@@ -22,12 +22,10 @@ footer {
 
 .container{
   display:flex;
-  gap:10px;
+  gap:200px;
   justify-content:space-between;
 }
-/* img{
-  float:left;
-} */
+
 .container1{
   display:flex;
   justify-content: space-between;
@@ -35,7 +33,8 @@ footer {
 }
 .container2{
   display: flex;
-  justify-content: flex-end;
+  gap:10px;
+  justify-content: space-between;
 }
 
 .tile-image{
@@ -45,9 +44,9 @@ footer {
 .card-text{
   width:300px;
 }
-.right{
+/* .right{
   width:400px;
-}
+} */
 span{
   color: rgb(99, 14, 219);
 }
