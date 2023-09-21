@@ -12,6 +12,7 @@ body {
 
 h1 {
   font-size: 5rem;
+  display:block;
 }
 
 footer {
@@ -22,7 +23,19 @@ footer {
 .container{
   display:flex;
   gap:10px;
-  justify-content:center;
+  justify-content:space-between;
+}
+/* img{
+  float:left;
+} */
+.container1{
+  display:flex;
+  justify-content: space-between;
+  gap:50px;
+}
+.container2{
+  display: flex;
+  justify-content: flex-end;
 }
 
 .tile-image{
@@ -34,4 +47,7 @@ footer {
 }
 .right{
   width:400px;
+}
+span{
+  color: rgb(99, 14, 219);
 }
